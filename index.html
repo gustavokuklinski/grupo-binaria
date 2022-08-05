@@ -34,8 +34,8 @@
 			<div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample09">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Empresas</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>
+					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Empresas</a></li>
 				</ul>
 			</div>
 		</div>
@@ -59,9 +59,35 @@
 
 
 
+	<section class="site-section" id="section-about">
+		<div class="container">
+			<div class="section-heading text-center">
+				<h2>Sobre o <strong>Grupo Binaria</strong></h2>
+			</div>
+			<div class="row mb-5">
+
+				
+				<div class="col-lg-6 pl-lg-6">
+					
+					<p class="lead" style="text-align: justify; color: #eaeaea;">O Grupo Binaria surgiu junto com a Galeria Binaria Arte Contemporânea em 2018. <br /><br />
+						No seu início era apenas um espaço virtual para apoio de artistas visuais através das redes sociais e online viewing rooms (termo que se tornou popular em 2020).<br /><br />
+						Por conta das grandes mudanças ocorridas e com a criação e gestão de conteúdos foi preciso unificar os projetos em um só separados em suas derivadas categorias.</p>
+					
+
+				</div>
+				<div class="col-lg-6 pl-lg-6">
+					
+					<p class="lead" style="text-align: justify; color: #eaeaea;">Com cada projeto criado de forma estruturada, trabalhamos em diversos seguimentos como:<br /><br />
+						Conteúdos (Formas Podcast), Cripto (Bink), NFT (Allium), Serviços (Online Viewing Room), Metaverso (Marble) e Galeria de Arte (Binaria Arte Contemporânea). </p>
+
+				</div>
+			</div>
+			
+		</div>
+	</section>
 
 
-	<section class="site-section" id="section-portfolio">
+	<section class="site-section" id="section-portfolio" style="padding-top: 0;">
 		<div class="container">
 			<div class="row">
 				<div class="section-heading text-center col-md-12">
@@ -167,75 +193,6 @@
 	<!-- .section -->
 
 	
-	<section class="site-section" id="section-about">
-		<div class="container">
-			<div class="section-heading text-center">
-				<h2>Sobre o <strong>Grupo Binaria</strong></h2>
-			</div>
-			<div class="row mb-5">
-
-				
-				<div class="col-lg-6 pl-lg-6">
-					
-					<p class="lead" style="text-align: justify;">O Grupo Binaria surgiu junto com a Galeria Binaria Arte Contemporânea em 2018. No seu início era apenas um espaço virtual para apoio de artistas visuais através das redes sociais e online viewing rooms (termo que se tornou popular em 2020). 
-						Por conta das grandes mudanças ocorridas e com a criação e gestão de conteúdos foi preciso unificar os projetos em um só separados em suas derivadas categorias.</p>
-					
-
-				</div>
-				<div class="col-lg-6 pl-lg-6">
-					
-					<p class="lead" style="text-align: justify;">Com cada projeto criado de forma estruturada, trabalhamos em diversos seguimentos como:<br />
-						Conteúdos (Formas Podcast), Cripto (Bink), NFT (Allium), Serviços (Online Viewing Room), Metaverso (Marble) e Galeria de Arte (Binaria Arte Contemporânea). </p>
-
-				</div>
-			</div>
-			<div class="section-heading text-center">
-				<h2><strong>Distribuição</strong></h2>
-			</div>
-			<div class="row mb-5">
-				<div class="col-lg-12 pl-lg-12">
-					<div class="section-heading text-center">
-						<h4>Esforços em %</h4>
-					</div>
-					
-					<p class="lead">
-						<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
-						
-						<canvas id="distribuicao-grupobinaria"></canvas>
-
-						<script>
-							let ctx = document.getElementById('distribuicao-grupobinaria').getContext('2d');
-
-							let dados = {
-									datasets: [{
-											data: [2, 2, 5, 6, 10, 70],
-											backgroundColor: ['#cccccc', '#808080', '#c5c5c5', '#c1c1c1', '#000']
-									}],
-									labels: ['Formas Podcast','Allium', 'Bink', 'OVR', 'Marble', 'Binaria Arte']
-							};
-
-							let opcoes = {
-									cutoutPercentage: 0,
-									responsive: true,
-									plugins: {
-										legend: {
-											position: 'bottom',
-										}}
-							};
-
-							let meuDonutChart = new Chart(ctx, {
-									type: 'pie',
-									data: dados,
-									options: opcoes
-							});
-						</script>
-					</p>
-					<p class="lead" style="text-align: center;">O esforço de cada projeto é calculado através da sua<br />constância e manutebilidade orientado ao resultado esperado.</p>
-
-				</div>
-			</div>
-		</div>
-	</section>
 
 
 	<footer class="site-footer">
