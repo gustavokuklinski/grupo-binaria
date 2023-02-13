@@ -36,7 +36,6 @@
 					<li class="nav-item"><a class="nav-link" href="#section-home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-about">Sobre</a></li>
 					<li class="nav-item"><a class="nav-link" href="#section-portfolio">Projetos</a></li>
-					<li class="nav-item"><a class="nav-link" href="#section-dao">DAO</a></li>
 				</ul>
 			</div>
 		</div>
@@ -51,7 +50,7 @@
 				<div class="col-md-10 text-center pt-3">
 					<img src="images/logo.png" style="width: 168px"/><br /><br /><br />
 					<h1 class="site-heading site-animate">Trazendo a <strong class="d-block">ARTE do resultado</strong></h1>
-					<strong class="d-block text-white text-uppercase letter-spacing">Uma visão tecnológica da Arte Contemporânea</strong>
+					<strong class="d-block text-white text-uppercase letter-spacing">Uma visão tecnológica sobre a Arte Contemporânea</strong>
 				</div>
 			</div>
 		</div>
@@ -194,76 +193,6 @@
 	</section>
 	<!-- .section -->
 
-	<section class="site-section" id="section-dao" style="padding-top: 0;">
-		<div class="container">
-			<div class="section-heading text-center">
-				<h2>Grupo Binaria <strong>DAO</strong></h2>
-			</div>
-			<div class="row mb-5">
-
-				
-				<div class="col-lg-5 pl-lg-5">
-					
-					<p class="lead" style="text-align: justify; color: #eaeaea;">
-						A sigla "DAO" quer dizer <i>Decentralized Autonomous Organization</i> (organização autônoma descentralizada) e surgiu para trazer um consenso de comunidade englobando pessoas engajadas em todas as partes dos projetos opensource do Grupo Binaria.<br /><br />
-						A DAO está disponível englobando os projetos: Marble e Allium baseados em blockchain e cripto residindo na rede Polygon.<br /><br />
-
-						<strong>Detalhes - Transparência</strong><br />
-						Supply inicial (08.22): 1.000.000,<sup>18 dec</sup><br />
-						Token de governança: BDAO - <a style="color: #fff;" href="https://polygonscan.com/token/0x47dd2a97c65b0da9a627ebee77f07897525541ef" target="_blank">0x47...41ef</a><br />
-						Tesouro (Vault): <a style="color: #fff;" href="https://polygonscan.com/address/0x09a1dc969110b7410b6ec086700fd5235c95d40f" target="_blank">0x09...d40f</a><br />
-						Votações: <a style="color: #fff;" href="https://polygonscan.com/address/0x40ec9ac282555c9de10bd4d6d587938778811150" target="_blank">0x40...1150</a>
-						<br /><br />
-						<a href="dao.html" style="background: #000; padding: 15px; color: #fff">Saiba mais</a>
-						
-					</p>
-					
-
-				</div>
-				<div class="col-lg-7 pl-lg-7">
-					
-					<p class="lead" style="text-align: center; color: #eaeaea;">
-						<strong>Distribuição (08.22)</strong><br /><br />
-						<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
-						
-						<canvas id="distribuicao-grupobinaria"></canvas>
-
-						<script>
-							let ctx = document.getElementById('distribuicao-grupobinaria').getContext('2d');
-
-							let dados = {
-									datasets: [{
-											data: [30, 30, 20, 19, 1],
-											backgroundColor: ['#cccccc', '#808080', '#c5c5c5', '#000', '#808080']
-									}],
-									labels: ['Tesouro', 'Grupo Binaria', 'Distribuição Privada', 'Mercado (MATIC - BDAO)', 'Mercado (ART$ - BDAO)']
-							};
-
-
-							let opcoes = {
-									cutoutPercentage: 0,
-									responsive: true,
-									plugins: {
-										legend: {
-											position: 'bottom',
-										}}
-							};
-
-							let meuDonutChart = new Chart(ctx, {
-									type: 'pie',
-									data: dados,
-									options: opcoes
-							});
-						</script>
-						
-
-					</p>
-
-				</div>
-			</div>
-			
-		</div>
-	</section>
 	
 
 
